@@ -1,0 +1,61 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  text-align: center;
+  list-style-type: none;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #ffe500;
+  margin: 0;
+}
+
+.links {
+  margin: .3em;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h1 {
+  color: #cc1465;
+  font-family: "Sigmar One", sans-serif;
+  font-size: 1.875rem;
+  margin: 0;
+}
+
+h2 {
+  color: #cc1465;
+  font-family: "Sigmar One", sans-serif;
+  font-size: 1.875rem;
+  margin: 0;
+}
+
+.text {
+  background-color: #fff;
+}
+
+.links a {
+  display: inline-block;
+  padding: .5em .75em;
+  background-color: #b2a212;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.links li {
+  display: inline-block;
+  max-width: 20em;
+}
+
+a:hover {
+  background-color: #b20953;
+}
