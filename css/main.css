@@ -10,13 +10,13 @@ html {
 }
 
 body {
-  background-color: #ffe500;
   margin: 0;
 }
 
 .links {
   margin: .3em;
   padding: 0;
+  text-align: center;
 }
 
 img {
@@ -24,10 +24,14 @@ img {
   width: 100%;
 }
 
+header {
+  background-color: #ffe500;
+}
+
 h1 {
-  color: #cc1465;
+  color: #b20953;
   font-family: "Sigmar One", sans-serif;
-  font-size: 1.875rem;
+  font-size: 3rem;
   margin: 0;
 }
 
@@ -37,6 +41,10 @@ h2 {
   font-size: 1.875rem;
   margin: 0;
 }
+footer {
+  background-color: #ffe500;
+  font-size: .75rem;
+}
 
 .text {
   background-color: #fff;
@@ -44,7 +52,7 @@ h2 {
 
 .links a {
   display: inline-block;
-  padding: .5em .75em;
+  padding: 0 .75em;
   background-color: #b2a212;
   border-radius: 3px;
   text-decoration: none;
