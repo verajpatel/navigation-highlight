@@ -41,20 +41,26 @@ h2 {
   font-size: 1.875rem;
   margin: 0;
 }
+
 footer {
   background-color: #ffe500;
   font-size: .75rem;
 }
 
+b {
+  color: #2f2d13;
+}
+
 .text {
   background-color: #fff;
+  padding: .2em .5em .3em;
 }
 
 .links a {
   display: inline-block;
   padding: 0 .75em;
   background-color: #b2a212;
-  border-radius: 3px;
+  border-radius: 4px;
   text-decoration: none;
   color: #fff;
 }
